@@ -1,6 +1,6 @@
 require 'prime'
 number = gets
-def prime?(value, generator = Prime::Generator23.new)
+def prime?(value, generator = Prime::Generator23.new) 
     raise ArgumentError, "Expected a prime generator, got #{generator}" unless generator.respond_to? :each
     raise ArgumentError, "Expected an integer, got #{value}" unless value.respond_to?(:integer?) && value.integer?
     return false if value < 2

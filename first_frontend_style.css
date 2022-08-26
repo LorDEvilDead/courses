@@ -1,0 +1,20 @@
+p {
+    font-weight: bold;
+  }
+  p2 {
+    font-style: italic;
+    }
+    
+    #1 {
+        list-style-type: none; 
+       }
+       ul {
+        padding-left: 0; 
+       }
+    
+    Ol {
+    color: white;
+    background-color: red;
+    padding: 20px;
+    margin-left: 0px;
+    }
